@@ -1,0 +1,22 @@
+{
+    "name": "przeslijmi/ad-bir-plug",
+    "version": "v1.2.4",
+    "type": "library",
+    "license": "proprietary",
+    "description": "",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/johnzuk/GusApi"
+        }
+    ],
+    "require": {
+        "gusapi/gusapi": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Przeslijmi\\AgileDataBirPlug\\": "src/"
+        }
+    }
+}
